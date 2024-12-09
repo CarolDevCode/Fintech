@@ -1,0 +1,29 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.flamenco-light {
+    font-family: "Flamenco", system-ui;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.flamenco-regular {
+    font-family: "Flamenco", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Personalização dos gráficos (placeholder) */
+.chart {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #777;
+    font-style: italic;
+}  
